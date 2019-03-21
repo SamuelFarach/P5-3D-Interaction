@@ -13,7 +13,7 @@ function setup() {
 
 	//ship
 	shipPosition = new createVector(width / 2, height / 1.1);
-	objectCurrent = loadModel('https://github.com/SamuelFarach/P5-3D-Interaction/blob/gh-pages/assets/pyramid.obj');
+	objectCurrent = loadModel('assets/pyramid.obj');
 }
 
 function draw()
